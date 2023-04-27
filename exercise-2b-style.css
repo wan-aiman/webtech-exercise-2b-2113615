@@ -1,0 +1,262 @@
+body {
+    width: 99%;
+    margin: auto;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+
+}
+
+body p,h1,h2{
+
+    margin: auto;
+    text-align: center;
+}
+
+header {
+    background-color: rgb(238, 44, 238);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: large;
+    margin-bottom: 30px;
+}
+
+nav {
+    background-color: #4CAF50;
+    overflow: hidden;
+    margin-bottom: 30px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav a {
+    color: #fff;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #3e8e41;
+}
+
+.logo {
+    margin-left: 350px;
+    background-color: rgb(238, 44, 238);
+    padding: 10px 20px;
+    color: white;
+    
+}
+
+
+section {
+    margin-top: 1px;
+}
+
+aside{
+    width: 48%;
+    float: left;
+    text-decoration: none;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#destinations {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  
+.destinations,
+.location {
+    height: 200px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 0;
+    text-align: center;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.location p{  
+    text-align: justify;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.location a {
+    background-color: #4CAF50;
+    overflow: hidden;
+    margin-bottom: 30px;
+    padding: 10px;
+    float: none;
+    color: #ffff;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+  
+.location a:hover {
+    background-color: #3e8e41;
+}
+
+#destinations div:nth-child(1),
+#destinations div:nth-child(2) {
+    flex-basis: 42%;
+}
+  
+#destinations div:nth-child(3),
+#destinations div:nth-child(4),
+#destinations div:nth-child(5),
+#destinations div:nth-child(6) {
+    flex-basis: 42%;
+    order: 2;
+    flex-wrap: wrap;
+    padding: 20px;
+    height: 620px;
+}
+  
+#destinations div:nth-child(3) {
+    order: 3;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-basis: 42%;
+}
+    
+#table {
+    width: 42%;
+    margin-left: 100px;
+    margin-right: 0;
+}
+
+#table h1,#table p{
+    margin-left: 90px;
+}
+    
+#form {
+    width: 42%;
+    margin-left: 80px;
+    margin-right: 0;
+}
+    
+table {
+    border-collapse: collapse;
+    margin-left: 70px;
+    margin-bottom: 30px;
+    width: 90%;
+}
+    
+th,td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+    
+th {
+    background-color: #f2f2f2;
+}
+    
+#form{
+    margin-right: 100px;
+}
+
+#form h2, #form p{
+    margin-right: 80px;
+}
+
+#form input[type="submit"] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 20px;
+    width: 94.5%;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+    
+#form input[type="submit"]:hover {
+    background-color: #55c459;
+}
+
+#form label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+#form input[type="text"],
+#form input[type="email"] {
+    width: 85%;
+    padding: 9px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}  
+
+#form input[type="text"]:focus,
+#form input[type="email"]:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+footer{
+    background-color: rgb(238, 44, 238);
+    color: white;
+    font-size: smaller;
+    margin-top: 30px;
+    padding: 20px;
+    text-align: center;
+}
+  
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+footer a{
+    color: #fff;
+    text-align: center;
+    padding: 18px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+  
